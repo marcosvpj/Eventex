@@ -15,7 +15,11 @@ class SubscribesTest(TestCase):
     def test_html(self):
         """Html must contain input tags"""
         self.assertContains(self.resp, '<form')
-        self.assertContains(self.resp, '<input', 5)
+        self.assertContains(self.resp, '<input', 6)
         self.assertContains(self.resp, 'type="text"', 3)
         self.assertContains(self.resp, 'type="email"', 1)
         self.assertContains(self.resp, 'type="submit"', 1)
+
+    def test_csrf(self):
+        """Html must contains csrf"""
+        self.assertContains(self.resp, 'csrfmiddlewaretoken')
