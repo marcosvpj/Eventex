@@ -2,6 +2,9 @@
 
 Sistema de eventos para o curso Welcome to the Django
 
+[![Build Status](https://travis-ci.org/marcosvpj/Eventex.svg?branch=master)](https://travis-ci.org/marcosvpj/Eventex)
+[![Code Health](https://landscape.io/github/marcosvpj/Eventex/master/landscape.svg?style=flat)](https://landscape.io/github/marcosvpj/Eventex/master)
+
 ##Como desenvolver?
 
 1. Clonar o repo
