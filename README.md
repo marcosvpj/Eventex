@@ -21,7 +21,7 @@ python -m venv .wttd
 # Windows
 .wttd\Scripts\activate.bat
 # *nix
-source .wttd\Scripts\activate
+source .wttd/bin/activate
 pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
