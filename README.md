@@ -1,11 +1,11 @@
-#Eventex
+# Eventex
 
 Sistema de eventos para o curso Welcome to the Django
 
 [![Build Status](https://travis-ci.org/marcosvpj/Eventex.svg?branch=master)](https://travis-ci.org/marcosvpj/Eventex)
 [![Code Health](https://landscape.io/github/marcosvpj/Eventex/master/landscape.svg?style=flat)](https://landscape.io/github/marcosvpj/Eventex/master)
 
-##Como desenvolver?
+## Como desenvolver?
 
 1. Clonar o repo
 2. Criar virtualenv com Python 3.5
